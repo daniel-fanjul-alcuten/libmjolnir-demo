@@ -1,0 +1,22 @@
+{
+  "GoDir": "mjolnir/src",
+  "GoPaths": [
+    "mjolnir",
+    "libfoobar/mjolnir"
+  ],
+  "TestPackages": [
+    "github.com/daniel-fanjul-alcuten/libmjolnir",
+    "libfoobar/foo",
+    "libfoobar/bar",
+    "libmjolnir-demo/baz",
+    "libmjolnir-demo/build-libmjolnir-demo"
+  ],
+  "InstallPackages": [
+    "github.com/daniel-fanjul-alcuten/libmjolnir",
+    "libfoobar/foo",
+    "libfoobar/bar",
+    "libmjolnir-demo/baz",
+    "libmjolnir-demo/build-libmjolnir-demo"
+  ],
+  "Exec": "mjolnir/bin/build-libmjolnir-demo"
+}
